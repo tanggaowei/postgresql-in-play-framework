@@ -1,8 +1,5 @@
 package controllers;
 
-import com.vividsolutions.jts.geom.*;
-import org.hibernate.spatial.jts.mgeom.MCoordinateSequence;
-import org.hibernate.spatial.jts.mgeom.MGeometryFactory;
 import play.mvc.*;
 import models.*;
 import util.GeoUtils;
@@ -18,6 +15,7 @@ public class Application extends Controller {
         }
         else{
             // 修改地理位置字段
+
             user.location = GeoUtils.createPoint(31.581112, 114.381800);
             user.save();
         }
