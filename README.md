@@ -18,9 +18,8 @@
 - hibernate-spatial-4.0.1.jar
 - jts-1.13.jar
 - postgis-jdbc-2.1.7.jar
-- postgis-jdbc-jtsparser-2.1.6.jar 
  
-这 3 个 jar 包可以从百度云下载：http://pan.baidu.com/s/1dEU7x9B
+这 4 个 jar 包可以从百度云下载：http://pan.baidu.com/s/1dEU7x9B
 
  **3、application.conf 数据库连接配置** 
 

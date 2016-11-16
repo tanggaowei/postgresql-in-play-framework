@@ -15,7 +15,6 @@ public class Application extends Controller {
         }
         else{
             // 修改地理位置字段
-
             user.location = GeoUtils.createPoint(31.581112, 114.381800);
             user.save();
         }
